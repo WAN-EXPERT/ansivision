@@ -28,6 +28,8 @@
     "path": "^0.12.7",
     "ping": "^0.4.1",
     "port-scanner-promise": "^0.0.6",
-    "portscanner": "^2.2.0"
+    "portscanner": "^2.2.0",
+    "react-dom": "^18.2.0",
+    "react-transition-group": "^4.4.5"
   }
 }
