@@ -1,0 +1,135 @@
+{
+  "networks": [
+    {
+      "id": 1,
+      "name": "Serveur AD1",
+      "ip": "192.168.200.1",
+      "netmask": 24,
+      "picture": "SERVER.png",
+      "types": [
+        "SERVER"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Serveur Ansible",
+      "ip": "192.168.200.20",
+      "netmask": 24,
+      "picture": "SERVER.png",
+      "types": [
+        "SERVER"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "ESX1",
+      "ip": "192.168.200.51",
+      "netmask": 24,
+      "picture": "ESX.png",
+      "types": [
+        "ESX"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "ESX2",
+      "ip": "192.168.200.50",
+      "netmask": 24,
+      "picture": "ESX.png",
+      "types": [
+        "ESX"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Router Orange",
+      "ip": "192.168.200.254",
+      "netmask": 24,
+      "picture": "FIREWALL.png",
+      "types": [
+        "ROUTER"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Aruba 5eme",
+      "ip": "192.168.200.200",
+      "netmask": 24,
+      "picture": "NETWORK.png",
+      "types": [
+        "NETWORK"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Aruba 3eme",
+      "ip": "192.168.200.201",
+      "netmask": 24,
+      "picture": "NETWORK.png",
+      "types": [
+        "NETWORK"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Aruba 2eme",
+      "ip": "192.168.200.202",
+      "netmask": "24",
+      "picture": "NETWORK.png",
+      "types": [
+        "NETWORK"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "NUTANIX Server",
+      "ip": "192.168.200.100",
+      "netmask": 24,
+      "picture": "NUTANIX.png",
+      "types": [
+        "NUTANIX"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "PC LJ",
+      "ip": "192.168.200.21",
+      "netmask": 24,
+      "picture": "COMPUTER.png",
+      "types": [
+        "COMPUTER"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "PC DC",
+      "ip": "192.168.200.22",
+      "netmask": 8,
+      "picture": "COMPUTER.png",
+      "types": [
+        "COMPUTER"
+      ]
+    },
+    {
+      "id": 1647869128997,
+      "ip": "192.168.200.10",
+      "netmask": 24,
+      "name": "JUNIPER VPN2",
+      "picture": "FIREWALL.png",
+      "types": [
+        "ROUTER"
+      ]
+    },
+    {
+      "id": 1647871013536,
+      "ip": "192.168.200.35",
+      "netmask": 24,
+      "name": "JUNIPER VPN3",
+      "picture": "FIREWALL.png",
+      "types": [
+        "",
+        "ROUTER"
+      ]
+    }
+  ]
+}

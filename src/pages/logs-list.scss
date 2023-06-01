@@ -1,0 +1,124 @@
+.files input {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    padding: 120px 0px 85px 35%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+}
+.files input:focus{     outline: 2px dashed #92b0b3;  outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
+ }
+.files{ position:relative}
+.files:after {  pointer-events: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    //background-image: url("/Frontend/src/images/1431.jpg");
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.color input{ background-color:#f1f1f1;}
+.files:before {
+    position: absolute;
+    bottom: 10px;
+    left: 0;  pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 57px;
+    content: " or drag it here. ";
+    display: block;
+    margin: 0 auto;
+    color: #2ea591;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+.collection {
+    margin-top: 30px;
+}
+
+.m-ansible {
+    margin-top: 50px;
+}
+
+.anim-enter {
+    opacity: 0.01;
+  }
+   
+.anim-enter.anim-enter-active {
+    opacity: 2;
+    transition: opacity 0.5s ease-in;
+}
+nav {
+    display:inline-flexbox;
+}
+
+.nav-wrapper {
+    //display: inline-block;
+    position: relative;
+    width: 100%;
+    //margin-bottom: 100px;
+}
+
+.menu-ansible {
+    background-color: #2C2D2E;
+    width: 100%;
+}
+
+.right-titre {
+    font-size: 20px;
+    color:  #4FE445;
+    margin-left: 300px;
+}
+
+.menu_fleche {
+    //display: flex;
+    flex-direction:column;
+    float: right;
+}
+
+.previous :hover {
+    cursor: pointer;
+
+}
+
+.previous {
+    background-color: #2C2D2E;
+    border-radius : 10px;
+    border: 1px solid white;
+    //margin-top: 70px;
+    width: 300px;
+    height: 60px;
+    display: flex;
+    color: white;
+}
+.menu__ic {
+    margin-top: 8px;
+    margin-left: 20px;
+
+}
+.previous p {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+.compteur {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: -5px;
+}
+.logs {
+    padding-top: 20px;
+    float: right;
+}

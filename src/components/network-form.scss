@@ -1,0 +1,50 @@
+  /* label color */
+  .form-group label {
+    color: #4FE445;
+    font-size: medium;
+    padding:0%;
+  }
+
+  .form-group input {
+      color: whitesmoke;
+  }
+
+  .form-group select {
+    margin-top: 10px;
+  }
+
+  .checkbox {
+     padding: 10px;
+     margin-bottom: 5px;
+  }
+
+  .checkbox input {
+      margin-top: 10px;
+  }
+
+  .button-form {
+      margin-right: 10px;
+  }
+  /* label focus color */
+  .form-group input[type=text]:focus + label {
+    color: #4FE445;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #4FE445;
+  }

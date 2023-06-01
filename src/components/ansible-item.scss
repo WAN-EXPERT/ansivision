@@ -1,0 +1,59 @@
+.collection-item {
+    color: white;
+}
+
+table {
+    max-width: 90% ;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.collection a.collection-item {
+    color: white;
+}
+
+.collection .collection-item {
+    background-color: #201F23;
+}
+
+.collection-item:hover {
+  
+  background-color: #2C2D2E;
+}
+
+.ansible-titre {
+    //font-weight:bolder;
+    width: 25%;  
+    color: white;
+    padding-left: 10px;
+   
+}
+
+.ansible-champ {
+    color: black;
+    width: 33%;
+    text-align: center;
+}    
+
+.ansible-cron p {
+    color: #201F23;
+}
+.ansible-resultat {
+    width: 25%;
+}
+td {
+    padding-left: 0px;
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+}
+.ansible-resultat-ok {
+    color: #4FE445 ;
+}
+.ansible-resultat-ko {
+    color: red;
+}
+.cadre {
+    background-color: #4c6677;
+}

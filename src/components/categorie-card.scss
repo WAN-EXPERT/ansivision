@@ -1,0 +1,61 @@
+.horizontal {
+    border: solid 4px #2C2D2E;
+    //height: 200px;
+}
+
+.name-device {
+    font-weight : bold;
+    font-size: large;
+}
+
+.ip-device {
+    font-weight : normal;
+    padding: 10px;
+    color: black;
+}
+
+.ip-offline {
+    font-weight : bold;
+    padding: 10px;
+    color: red;
+}
+
+.ip-online {
+    color: green;
+}
+
+.categorie {
+    padding: 10px;
+}
+
+.bordered {
+    margin-top: 20px;
+}
+
+.MyCard-Categorie {
+    height: 350px;
+}
+
+.MyCard-Categorie-red {
+    height: 350px;
+    background-color: red;
+}
+
+tbody {
+
+    border-radius : 20px;
+    border: 1px solid white;
+    //box-shadow: 0 0 0 1px white;
+}
+
+.host_alive {
+    color: white;
+    margin-block-start: 0%;
+    margin-block-end: 0%;
+}
+
+@media screen and (max-width: 1800px) {
+    .MyCard-Categorie {
+        height: 450px;
+    }
+}

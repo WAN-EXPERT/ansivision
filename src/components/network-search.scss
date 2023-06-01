@@ -1,0 +1,52 @@
+
+/* label color */
+.input-field label {
+    color: whitesmoke;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: whitesmoke;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+    color: aliceblue;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: whitesmoke;
+  }
+
+  input[type=text]:not(.browser-default) {
+    border-bottom: 1px solid whitesmoke;
+    box-shadow: 0 1px 0 0 whitesmoke;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid  #4FE445;
+    box-shadow: 0 1px 0 0  #4FE445;  
+}
+
+.collection a.collection-item {
+      color: #4FE445;
+}
+
+.collection .collection-item {
+      background-color: #201F23;
+}
+
+.collection-item:hover {
+    color: #2C2D2E;
+    background-color:  #4FE445;
+}

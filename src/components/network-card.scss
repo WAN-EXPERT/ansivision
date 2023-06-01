@@ -1,0 +1,29 @@
+.horizontal {
+    border: solid 4px #4FE445;
+    height: 200px;
+}
+
+.name-device {
+    font-weight : bold;
+    color: #f3f3eb;
+}
+
+.ip-device {
+    font-weight : bold;
+    padding: 10px;
+    color:#f3f3eb ;
+}
+
+.categorie {
+    padding: 10px;
+    color:#f3f3eb ; 
+}
+
+
+
+@media screen and (max-width: 1800px) {
+    .horizontal {
+        height: 250px;
+    }
+}
+  

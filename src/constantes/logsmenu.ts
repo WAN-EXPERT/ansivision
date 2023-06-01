@@ -1,0 +1,1 @@
+export const LOGSMENU = ["Logs éléments actifs /logsPing", "Logs des services /logsScan"]

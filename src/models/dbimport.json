@@ -1,0 +1,150 @@
+[
+    {
+      "id": 1,
+      "name": "Serveur AD1",
+      "ip": "192.168.200.1",
+      "status": 1,
+      "picture": "SERVER.png",
+      "categorie": "SERVER",
+      "types": [
+        "SSH",
+        "HTTP"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Serveur Ansible",
+      "ip": "192.168.200.20",
+      "status": 1,
+      "picture": "SERVER.png",
+      "categorie": "SERVER",
+      "types": [
+        "SSH"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "ESX1",
+      "ip": "192.168.200.51",
+      "status": 1,
+      "picture": "ESX.png",
+      "categorie": "SERVER",
+      "types": [
+        "SSH",
+        "HTTPS"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "ESX2",
+      "ip": "192.168.200.50",
+      "status": 1,
+      "picture": "ESX.png",
+      "categorie": "SERVER",
+      "types": [
+        "SSH"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Router Orange",
+      "ip": "192.168.200.254",
+      "status": 1,
+      "picture": "FIREWALL.png",
+      "categorie": "ROUTER",
+      "types": [
+        "SSH"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Aruba 5eme",
+      "ip": "192.168.200.200",
+      "status": 1,
+      "picture": "NETWORK.png",
+      "categorie": "NETWORK",
+      "types": [
+        "SSH"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Aruba 3eme",
+      "ip": "192.168.200.201",
+      "status": 1,
+      "picture": "NETWORK.png",
+      "categorie": "NETWORK",
+      "types": [
+        "SSH",
+        "HTTP",
+        "HTTPS"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Aruba 2eme",
+      "ip": "192.168.200.202",
+      "status": "1",
+      "picture": "NETWORK.png",
+      "categorie": "NETWORK",
+      "types": [
+        "HTTPS"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "NUTANIX Server",
+      "ip": "192.168.200.100",
+      "status": 1,
+      "picture": "NUTANIX.png",
+      "categorie": "SERVER",
+      "types": [
+        "HTTPS"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "PC LJ",
+      "ip": "192.168.200.21",
+      "status": 1,
+      "picture": "COMPUTER.png",
+      "categorie": "COMPUTER",
+      "types": [
+        "RDP"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "PC DC",
+      "ip": "192.168.200.22",
+      "status": 8,
+      "picture": "COMPUTER.png",
+      "categorie": "COMPUTER",
+      "types": [
+        "RDP"
+      ]
+    },
+    {
+      "id": 13,
+      "ip": "192.168.200.10",
+      "status": 1,
+      "name": "JUNIPER VPN2",
+      "picture": "FIREWALL.png",
+      "categorie": "FIREWALL",
+      "types": [
+        "SSH"
+      ]
+    },
+    {
+      "id": 14,
+      "ip": "192.168.200.35",
+      "status": 1,
+      "name": "JUNIPER VPN3",
+      "picture": "FIREWALL.png",
+      "categorie": "FIREWALL",
+      "types": [
+        "SSH",
+        "HTTPS"
+      ]
+    }
+]

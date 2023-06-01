@@ -1,0 +1,48 @@
+.container-status {
+    margin-top: 8em;
+    height: 42em; //put your required height which fix this by testing.
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+
+h4 {
+    color: white;
+}
+
+h5 {
+    color: white;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.services {
+    color: #4FE445;
+}
+
+.bouton-centrer {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button1 {
+    width : 150px;
+    margin: 0;
+    /*padding-top: 5px;*/
+    margin-top: 2px;
+    vertical-align: center;
+  
+    -webkit-box-sizing: border-box; /* Pour les anciennes versions des navigateurs WebKit */
+       -moz-box-sizing: border-box; /* Pour tous les navigateurs Gecko */
+            box-sizing: border-box;
+}
+.message {
+    padding: 15px;
+    color: #4FE445;
+    animation: message 2s linear infinite;
+}
+
+@keyframes message {  
+    50% { opacity: 0; }
+  }

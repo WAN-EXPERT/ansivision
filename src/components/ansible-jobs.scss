@@ -1,0 +1,62 @@
+.container-status {
+    margin-top: 8em;
+    height: 33%; //put your required height which fix this by testing.
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+
+h4 {
+    color: white;
+}
+
+h6 {
+    color: #4FE445;
+    font-style: normal;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.bouton-centrer {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+th {
+    color: white;
+}
+
+.menu__icon {
+    margin-left: 30px;
+}
+
+td {
+    margin-left: 10px;
+}
+
+.button1 {
+    width : 150px;
+    margin: 0;
+    /*padding-top: 5px;*/
+    margin-top: 2px;
+    vertical-align: center;
+  
+    -webkit-box-sizing: border-box; /* Pour les anciennes versions des navigateurs WebKit */
+       -moz-box-sizing: border-box; /* Pour tous les navigateurs Gecko */
+            box-sizing: border-box;
+}
+.message {
+    padding: 15px;
+    animation: message 2s linear infinite;
+}
+.infocrons {
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+@keyframes message {  
+    50% { opacity: 0; }
+  }
