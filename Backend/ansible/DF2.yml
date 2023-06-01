@@ -1,0 +1,10 @@
+---
+# This playbook runs a basic DF command.
+
+- hosts: 127.0.0.1
+  #remote_user: root
+
+  tasks:
+  - name: find disk space available.
+    command: df -a
+

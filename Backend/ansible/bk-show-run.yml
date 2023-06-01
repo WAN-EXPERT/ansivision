@@ -1,0 +1,9 @@
+---
+- hosts: all
+  vars:
+    ansible_connection: network_cli
+  tasks:
+    - name: Execute show run on the switch -Task2
+      arubaoss_command:
+        commands: ['show run']
+        output_file: /opt/backup/{{name}}-{{ansible_date_time.date}}.cfg

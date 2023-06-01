@@ -1,0 +1,31 @@
+all:
+  hosts:
+    Aruba-2930F-5E:
+      name : Aruba-2930F-5E
+      ansible_host: 192.168.220.251
+      ansible_user: admin
+      ansible_password: admin
+      ansible_connection: local
+      ansible_network_os: arubaoss
+    Aruba-2930F-3E:
+      name: Aruba-2930F-3E
+      ansible_host: 192.168.220.252
+      ansible_user: admin
+      ansible_password: admin
+      ansible_connection: local
+      ansible_network_os: arubaoss
+    Aruba-2930F-2E:
+      name : Aruba-2930F-2E
+      ansible_host: 192.168.220.254
+      ansible_user: admin
+      ansible_password: admin
+      ansible_connection: local
+      ansible_network_os: arubaoss   
+    WLC35:
+      name : WLC35
+      ansible_host: 192.168.220.1
+      ansible_user: admin
+      ansible_password: cKR35V9duWjaZ7
+      ansible_connection: local
+      ansible_network_os: arubaoss   
+      

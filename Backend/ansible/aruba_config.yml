@@ -1,0 +1,17 @@
+---
+  - name: Mise à jour du controleur -Task4
+    hosts: WLC35
+    vars:
+      ansible_connection: network_cli
+    vars_files:
+      - /opt/ansible/networking/nemo/password.yml
+    tasks:
+      - name: Execution de la suite de commande de mise à jour du password wifi invite -Task4
+        arubaoss_command:
+          commands: ["config",
+            "wlan ssid-profile ANDPC_INVITE",
+            "wpa-passphrase {{ pass }}",
+            "end",
+            "commit apply",
+            "write mem"]
+          output_file: /opt/ansible/networking/log/ArubaControler{{ansible_date_time.date}}.cfg

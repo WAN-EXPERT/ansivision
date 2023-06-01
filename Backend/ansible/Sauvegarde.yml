@@ -1,0 +1,23 @@
+---    
+# understanding with_items for correct syntax        
+- name: create a back up file         
+  file:        
+    path: /test/backup_path/backup_{{ansible_date_time.date}}.bkp    
+    state: touch    
+    mode: u=rw,g=r,o=r    
+
+- name: get the latest back up file    
+  shell: ls -1t /test/backup_path | head -1    
+  register: latest_bkp    
+- debug: msg="{{ latest_bkp.stdout_lines }}"    
+
+- name: Copy the latest file to restore path    
+  copy:    
+    src: /test/backup_path/{{ item }}    
+    dest: /test/restore_path/    
+    remote_src: yes     
+    owner: root    
+    group: root     
+    mode: '0644'    
+    force: yes    
+  with_items: "{{ latest_bkp.stdout_lines }}"    
