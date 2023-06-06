@@ -5,7 +5,6 @@ import EnvService from "../services/env-service";
 import { Link } from 'react-router-dom';
 import * as Icon from "react-icons/fc";
 import "./network-list.scss"
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 let timer
 const CategorieList = () => {
@@ -202,7 +201,6 @@ const CategorieList = () => {
 
     return (
         <div>
-
             <div className="entete">
                 <h5>Eléments Actifs / Catégorie</h5>
                 <div className="cadre-droit">
@@ -224,11 +222,9 @@ const CategorieList = () => {
             </div>
             <div className="container">
                 <div id="MyCard" className="row">
-                    <ReactCSSTransitionGroup transitionName="anim" transitionAppear={false} transitionEnterTimeout={5000} transitionEnter={true} transitionLeave={false}>
                         {categories.map((categorie, index) => (
                             <CategorieCard key={categorie._id} categorie={categorie} categorieHost={categorieHost[index]} />
                         ))}
-                    </ReactCSSTransitionGroup>
                 </div>
                 <Link className="btn-floating btn-large waves-effect waves-light red z-depth-3"
                 style={{position: 'fixed', bottom: '25px', right: '25px'}}

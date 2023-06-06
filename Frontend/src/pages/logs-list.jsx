@@ -5,7 +5,6 @@ import LogsScanHisto from "../models/logsScanHisto";
 import { Link } from 'react-router-dom';
 import "./logs-list.scss";
 import LogsItem from "../components/logs-item";
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import * as Icon from "react-icons/fc";
 import { styled } from '@mui/system';
 import TablePaginationUnstyled, {

@@ -10,6 +10,7 @@
     "start": "nodemon server.js"
   },
   "dependencies": {
+    "backend-js": "^1.2.10",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "cron-job-manager": "^2.2.2",

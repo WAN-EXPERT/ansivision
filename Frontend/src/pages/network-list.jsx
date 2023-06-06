@@ -8,7 +8,6 @@ import { useNavigate } from 'react-router-dom';
 import * as Icon from "react-icons/fc";
 import Loader from '../components/loader';
 import "./network-list.scss"
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 let timer
 
@@ -209,12 +208,10 @@ const NetworkList = ({isSearch}) => {
                 <div className="container">
                     {isSearch && <NetworkSearch />}
                     <div id="MyCard" className="row">
-                        <ReactCSSTransitionGroup transitionName="anim" transitionAppear={false} transitionEnterTimeout={5000} transitionEnter={true} transitionLeave={false}>
                             {networks.map(network => (
                                 <NetworkCard key={network.id} network={network} />
                                 
                             ))}
-                        </ReactCSSTransitionGroup>
                     </div>
                     <Link className="btn-floating btn-large waves-effect waves-light red z-depth-3"
                     style={{position: 'fixed', bottom: '25px', right: '25px'}}

@@ -4,7 +4,6 @@ import Ansible from "../models/ansible";
 import { Link } from 'react-router-dom';
 import "./ansible-list.scss";
 import AnsibleItem from "../components/ansible-item";
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 // type Props = {
 //     isSearch: boolean
@@ -51,11 +50,9 @@ const AnsibleList = () => {
                 </div>
                 <h5 className="center m-ansible">Liste des Tâches Ansible</h5>
                 <ul class="collection">
-                    <ReactCSSTransitionGroup transitionName="anim" transitionAppear={false} transitionEnterTimeout={5000} transitionEnter={true} transitionLeave={false}> 
                         {ansibleListe.map((ansible) => (
                             <AnsibleItem ansible={ansible} />
                         ))}
-                    </ReactCSSTransitionGroup>
                 </ul> 
                 <Link className="btn-floating btn-large waves-effect waves-light red z-depth-3"
                  style={{position: 'fixed', bottom: '25px', right: '25px'}}
