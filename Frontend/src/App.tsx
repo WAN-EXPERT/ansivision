@@ -11,7 +11,7 @@ import Login from './pages/login';
 import './App.css';
 import SideNav from "./components/SideNav";
 import StatusPing from './pages/status-ping.jsx';
-import CategorieList from './pages/categorie-list.jsx';
+import NewCategorieList from './pages/new-categorie-list.jsx';
 import CategorieListList from './pages/categorielist-list';
 import AnsibleList from './pages/ansible-list.jsx';
 import AnsibleAdd from './pages/ansible-add';
@@ -21,18 +21,6 @@ import AnsibleJobs from './components/ansible-jobs.jsx';
 import Settings from './pages/settings.jsx';
 import LogsList from './pages/logs-list.jsx';
 
-// const Home = () => <div>Home</div>;
-// const About = () => <div>About</div>;
-// const Stuff = () => {
-//   const size = useWindowSize();
-
-//   return (
-//     <div>
-//       {size.width}px / {size.height}px
-//     </div>
-//   );
-// };
-
 const App: FunctionComponent = () => {
 
  return (
@@ -40,7 +28,7 @@ const App: FunctionComponent = () => {
         <div>
             <SideNav isSearching={false} />
             <Routes>
-                <Route path="/" element={ <CategorieList/> } />
+                <Route path="/" element={ <NewCategorieList/> } />
                 <Route path="/login" element={ <Login /> } />
                 <Route path="/networks" element={<NetworkList isSearch={false}/>} />
                 <Route path="/networks/search" element={<NetworkList isSearch={true}/>} />
@@ -55,7 +43,7 @@ const App: FunctionComponent = () => {
                 <Route path="/ansible/listejobs" element={ <AnsibleJobs caseJobs={2}/>}/>
                 <Route path="/ansible/stopjobs" element={ <AnsibleJobs caseJobs={3}/>}/>
                 <Route path="/ansible/startjobs" element={ <AnsibleJobs caseJobs={4}/>}/>
-                <Route path="/networks/categorie" element={ <CategorieList /> } />
+                <Route path="/networks/categorie" element={ <NewCategorieList /> } />
                 <Route path="/networks/edit/:id" element={ <NetworkEdit />} />
                 <Route path="/ansible/edit/:id" element={ <AnsibleEdit />} />
                 <Route path="/networks/:id" element={ <NetworkDetail /> } />

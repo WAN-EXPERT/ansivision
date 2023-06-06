@@ -28,21 +28,6 @@
   font-weight: normal;
   src: local('Segoe UI Bold Italic'), url('./font/Segoe UI Bold Italic.woff') format('woff');
   }
-
-
-
-body {
-    background-color: #201F23 ;
-    color: #201F23;
-    padding: 40px;
-    background: no-repeat center center fixed url("../src/images/51588vb.jpg");
-    background-position: 0% 75%;
-    background-size: cover; 
-    text-align: center;
-    margin-top: -40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
   
   .bigblue {
     color: DodgerBlue;

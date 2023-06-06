@@ -220,7 +220,7 @@ const CategorieList = () => {
                     </div>
                 </div>
             </div>
-            <div className="max-width: 50%;">
+            <div className="max-width: 50%">
                 <div id="MyCard" className="row">
                         {categories.map((categorie, index) => (
                             <CategorieCard key={categorie._id} categorie={categorie} categorieHost={categorieHost[index]} />
