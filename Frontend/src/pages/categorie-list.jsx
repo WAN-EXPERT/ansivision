@@ -4,7 +4,7 @@ import NetworkService from "../services/network-service";
 import EnvService from "../services/env-service";
 import { Link } from 'react-router-dom';
 import * as Icon from "react-icons/fc";
-import "./network-list.scss"
+import "./categorielist-list.css"
 
 let timer
 const CategorieList = () => {
@@ -220,7 +220,7 @@ const CategorieList = () => {
                     </div>
                 </div>
             </div>
-            <div className="container">
+            <div className="max-width: 50%;">
                 <div id="MyCard" className="row">
                         {categories.map((categorie, index) => (
                             <CategorieCard key={categorie._id} categorie={categorie} categorieHost={categorieHost[index]} />

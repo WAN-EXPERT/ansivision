@@ -6,7 +6,7 @@ import NetworkService from "../services/network-service";
 import NetworkSearch from "../components/network-search";
 import { useNavigate } from 'react-router-dom';
 import * as Icon from "react-icons/fc";
-import './categorielist-list.scss'
+import './categorielist-list.css'
 
 
 // type Props = {

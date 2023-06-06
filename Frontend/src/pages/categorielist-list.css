@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.cadre-droit {
+    display: flex;
+    flex-direction:column;
+    float: right;
+}
+
+.status-droit {
+    
+    background-color: #2C2D2E;
+    border-radius : 10px;
+    border: 1px solid white;
+    //margin-top: 70px;
+    width: 180px;
+    display: flex;
+    
+}
+.scan-ping {
+
+    text-align: center;
+    //border: 1px solid white;
+    border-radius : 100px / 20px;
+    color: white;
+}
+
+.scan-port {
+
+    text-align: center;
+    //border: 1px solid white;
+    color: white;
+    border-radius : 100px / 20px;
+}
+.example-enter {
+    opacity: 1;
+    transform:translateX(-100%);
+  }
+  .example-enter-active {
+    opacity: 1;
+    transform:translateX(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .example-exit {
+    opacity: 1;
+    transform:translateX(0);
+  }
+  .example-exit-active {
+    opacity: 1;
+    transform:translateX(-100%);
+    transition: opacity 300ms, transform 300ms;
+  }
+
+
+  .MyCard-entering {
+    color: blue;
+    font-size: 150%;
+    transition-duration: 1s;
+ }
+
+ .MyCard-entered {
+    font-size: 150%;
+    color: red;
+ }
+
+.MyCard-exiting {
+    font-size: 100%;
+    color: black;
+    transition-duration: 1s;
+}
+
+.anim-enter {
+  opacity: 0.01;
+}
+ 
+.anim-enter.anim-enter-active {
+  opacity: 2;
+  transition: opacity 0.5s ease-in;
+}
+
